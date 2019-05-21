@@ -1,4 +1,5 @@
 #laravel and laravel admin with config and plugins
+
 <p align="center">
     <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
     <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
@@ -7,13 +8,17 @@
 </p>
 
 ##laravel tools
+
 ###[ide-helper](https://github.com/barryvdh/laravel-ide-helper)
+
 ```bash
 php artisan ide-helper:generate #- phpDoc generation for Laravel Facades
 php artisan ide-helper:models #- phpDocs for models
 php artisan ide-helper:meta #- PhpStorm Meta file
 ```
+
 ###[debugbar](https://github.com/barryvdh/laravel-debugbar)
+
 ```bash
 #1. add in config/app.php
 #2. publish static resource
@@ -21,6 +26,7 @@ php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
 ```
 
 ## About this project
+
 Just for building project simply for working with laravel and laravel-admin
 ```json
 {
@@ -39,6 +45,7 @@ Just for building project simply for working with laravel and laravel-admin
     }
 }
 ```
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
