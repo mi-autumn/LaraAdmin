@@ -6,6 +6,20 @@
     <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+##laravel tools
+###[ide-helper](https://github.com/barryvdh/laravel-ide-helper)
+```bash
+php artisan ide-helper:generate #- phpDoc generation for Laravel Facades
+php artisan ide-helper:models #- phpDocs for models
+php artisan ide-helper:meta #- PhpStorm Meta file
+```
+###[debugbar](https://github.com/barryvdh/laravel-debugbar)
+```bash
+#1. add in config/app.php
+#2. publish static resource
+php artisan vendor:publish --provider="Barryvdh\Debugbar\ServiceProvider"
+```
+
 ## About this project
 Just for building project simply for working with laravel and laravel-admin
 ```json
