@@ -2,6 +2,9 @@
 /public/hot
 /public/storage
 /storage/*.key
+/storage/logs
+/storage/framework
+/storage/debugbar
 /vendor
 /.idea
 /.vagrant
@@ -9,7 +12,6 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-.env
 _ide_helper.php
 package-lock.json
 .phpstorm.meta.php
